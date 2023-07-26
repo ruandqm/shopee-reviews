@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="../../styles/global.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Avaliações do Produto</title>
+</head>
+
+<body>
+    <div class="popup">
+        <header>
+            <div class="rate">
+                <span class="averageStarText">Média de estrelas</span>
+                <div class="stars">
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <span class="material-symbols-outlined">
+                        star_half
+                    </span>
+                    <div id="averageStars">
+                        4.5
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="actions">
+                <button class="defaultBtn btnDark">Baixar CSV</button>
+                <button class="defaultBtn btnDark">Apagar Imagens</button>
+            </div>
+        </header>
+
+        <main>
+            <section class="reviewsSection" id="data-container">
+                <span class="loading">Carregando...</span>
+            </section>
+        </main>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

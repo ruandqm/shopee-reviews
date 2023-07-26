@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "name": "Importador de Reviews",
+    "description": "Importar Reviews da Shopee",
+    "version": "1.0",
+    "action": {
+        "default_popup": "./popup/pages/home/index.html",
+        "default_icon": "./img/shopee.png"
+    }
+}

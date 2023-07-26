@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+:root {
+    --text-color: #cbcccc;
+    --text-disabled-color: #a0a3a7;
+    --scroll-background: #515355;
+    --background-input: linear-gradient(180deg, rgba(27, 30, 35, 0.2) 0%, rgba(68, 71, 75, 0.2) 60%, rgba(88, 92, 95, 0.5) 100%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Firefox Scroll */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: var(--text-disabled-color) var(--scroll-background)
+}
+
+/* Chrome, Edge, and Safari Scroll */
+*::-webkit-scrollbar {
+    width: 0.6em;
+    height: 0.6em;
+}
+
+*::-webkit-scrollbar-track {
+    background: var(--scroll-background);
+    border-radius: 1em;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: var(--text-disabled-color);
+    border-radius: 1em;
+    border: 0.1em solid var(--scroll-background);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    color: var(--text-color);
+    background-color: #171a20;
+}
+
+.defaultBtn {
+    padding: 0.8em;
+    border: none;
+    border-radius: 0.6em;
+    font-size: 1em;
+    font-weight: 600;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+.defaultBtn:hover {
+    background-color: var(--text-color);
+    transition-duration: 0.5s;
+}
+
+.btnLight {
+    background-color: rgb(233, 233, 233);
+    color: rgb(27, 30, 35);
+}
+
+.btnDark {
+    background: linear-gradient(180deg, rgba(88, 92, 95, 0.5) 0%, rgba(68, 71, 75, 0.5) 40%, rgba(27, 30, 35, 0.5) 100%);
+    color: var(--text-color);
+    border: 0.1em solid #7b7d809c;
+}

@@ -1,0 +1,188 @@
+.popup {
+    background: rgb(27, 30, 35);
+    min-width: 400px;
+    max-width: 450px;
+    background: linear-gradient(103deg, rgba(27, 30, 35, 1) 0%, rgb(43, 48, 56) 51%, rgb(56, 60, 66) 100%);
+    padding: 2em;
+    border: 0.15em solid var(--scroll-background);
+    border-radius: 1.5em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8em;
+    overflow: hidden;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerWelcome {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    font-size: 1em;
+}
+
+.arrowBack {
+    color: var(--text-disabled-color);
+    cursor: pointer;
+}
+
+.headerActions {
+    display: flex;
+    background-color: #2a2d33;
+    border-radius: 2em;
+    cursor: pointer;
+}
+
+.switcher {
+    display: flex;
+    align-items: center;
+    padding: 0.5em;
+    border-radius: 2em;
+}
+
+.switcher>span {
+    font-size: 2em;
+}
+
+.activeSwitcher {
+    background-color: #393d44;
+}
+
+.extensionWelcome {
+    margin: 0.8em auto;
+    text-align: center;
+}
+
+.welcomeBase {
+    font-size: 1em;
+    font-weight: 400;
+    color: var(--text-disabled-color);
+}
+
+.welcomeMain {
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.inputWrapper {
+    display: flex;
+    flex-direction: column;
+    border: 0.12em solid var(--text-disabled-color);
+    background: var(--background-input);
+    border-radius: 0.5em;
+    padding: 0.5em 1em;
+}
+
+.defaultLabel {
+    font-size: 0.8em;
+    color: var(--text-disabled-color);
+}
+
+.defaultInput {
+    color: var(--text-color);
+    font-size: 1em;
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+
+.checkboxOptionsWrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.checkboxOption {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.checkInput {
+    all: unset;
+    border: 0.12em solid var(--text-disabled-color);
+    width: 1em;
+    height: 1em;
+    color: var(--text-color);
+    background: var(--background-input);
+    cursor: pointer;
+}
+
+.checkInput:checked {
+    background-color: var(--text-color);
+}
+
+.inputSliderWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.sliderInput {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    cursor: pointer;
+    outline: none;
+    border-radius: 1em;
+    height: 0.4em;
+    background: #1d1f23;
+}
+
+.sliderInput::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    height: 1em;
+    width: 1em;
+    background-color: var(--text-color);
+    border-radius: 50%;
+    border: none;
+    transition: .2s ease-in-out;
+}
+
+.sliderInput::-moz-range-thumb {
+    height: 1em;
+    width: 1em;
+    background-color: var(--text-color);
+    border-radius: 50%;
+    border: none;
+    transition: .2s ease-in-out;
+}
+
+.qtdReviewsInput {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.genderInput {
+    background: linear-gradient(to right, #cbcccc 50%, #4e4f53 50%);
+}
+
+.genderValues {
+    display: flex;
+    justify-content: space-between;
+}
+
+.genderValue {
+    display: flex;
+    flex-direction: column;
+}
+
+.rightValue {
+    text-align: end;
+}
+
+.link {
+    text-align: center;
+}

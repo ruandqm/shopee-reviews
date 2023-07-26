@@ -1,0 +1,65 @@
+.popup {
+    background: rgb(27, 30, 35);
+    min-width: 450px;
+    max-width: 500px;
+    background: linear-gradient(103deg, rgba(27, 30, 35, 1) 0%, rgb(43, 48, 56) 51%, rgb(56, 60, 66) 100%);
+    padding: 2.5em;
+    border: 0.15em solid var(--scroll-background);
+    border-radius: 1.5em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    overflow: hidden;
+}
+
+.popup>h1 {
+    font-size: 1.5em;
+    font-weight: 600;
+    text-align: center;
+}
+
+.platforms {
+    display: flex;
+    gap: 1rem;
+    margin: auto;
+    height: 15em;
+}
+
+.platformOption {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: min-content;
+    padding: 0.15em;
+    border-radius: 0.5em;
+    gap: 0.5em;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.platformOption>img {
+    width: 3em;
+    border-radius: 0.5em;
+}
+
+.platformOption:hover {
+    transform: scale(105%);
+    transition-duration: 0.5s;
+}
+
+.platformOption>span {
+    font-size: 0.8em;
+    color: var(--text-disabled-color);
+}
+
+.buttons {
+    display: flex;
+    gap: 1em;
+    width: 100%;
+}
+
+.buttons>button {
+    width: 100%;
+    opacity: 0.5;
+    pointer-events: none;
+}
