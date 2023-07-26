@@ -12,7 +12,7 @@ Antes de executar a extensão, certifique-se de que você tenha os seguintes pr�
 
 ## Como Executar a Extensão
 1. Clone este repositório para o seu computador:
-`git clone https://github.com/seu-usuario/teste-tecnico-extensao-shopee.git`
+`git clone https://github.com/ruandqm/shopee-reviews`
 
 2. Abra o Google Chrome e digite chrome://extensions/ na barra de endereços.
 
